@@ -5,7 +5,7 @@
 
 params=$@
 
-function yes_or_no {
+yes_or_no() {
     if [ "$params" == "-y" ]; then
         return 0
     fi
@@ -20,7 +20,7 @@ function yes_or_no {
 }
 
 # install dependencies
-if [[ -f /etc/lsb-release ]]; then
+if [ -f /etc/lsb-release ]; then
     # Ubuntu
     sudo -E apt update
     sudo -E apt-get install -y \
@@ -32,8 +32,6 @@ if [[ -f /etc/lsb-release ]]; then
             ca-certificates \
             git \
             libboost-regex-dev \
-            gcc-multilib \
-            g++-multilib \
             libgtk2.0-dev \
             pkg-config \
             unzip \
