@@ -65,3 +65,7 @@ $ ./benchmark_app \
     -i ~/Downloads/setup/president_reagan-62x62.png \
     -d MYRIAD
 ```
+
+## References
+
+- [Arm 64 Single Board Computers and the Intel® Neural Compute Stick 2 (Intel® NCS 2)](https://software.intel.com/en-us/articles/ARM64-sbc-and-NCS2)
