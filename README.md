@@ -1,4 +1,7 @@
 # [OpenVINO™ Toolkit](https://01.org/openvinotoolkit) - Deep Learning Deployment Toolkit repository
+
+> Tutorial for installing OpenVINO on aarch64 platform can be found in [this page](INSTALL.md).
+
 [![Stable release](https://img.shields.io/badge/version-2019.R1-green.svg)](https://github.com/opencv/dldt/releases/tag/2019_R1)
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE)
 
